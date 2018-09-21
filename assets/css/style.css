@@ -1,4 +1,4 @@
-body {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 1rem;font-weight: 400;line-height: 1.5;color: #212529;text-align: left;}
+body {background-color:#dcdcdc;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 1rem;font-weight: 400;line-height: 1.5;color: #212529;text-align: left;}
 a {text-decoration: none;color:grey;font-size: 16px;}
 ul {list-style: none;}
 .navbar {position:fixed;top:0;width:100%;height:60px;background-color: #222222;margin-left: -8px;z-index:9999;}
@@ -14,7 +14,7 @@ ul {list-style: none;}
 .align-justify {text-align: justify;}
 .float-right{float:right;}
 .fixtop {padding-top:50px;}
-.content {margin-top:30px;padding-top: 10px;border-radius: 2px 2px 2px 2px  black;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);}
+.content {background-color:white;margin-top:30px;padding-top: 10px;border-radius: 2px 2px 2px 2px  black;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);}
 .content-body {padding:10px 10px 10px 10px}
 .hidden-content {margin-top:30px;padding-top:10px;width:16.67%;}
 .userimage {transition:0.5s;margin-bottom: 30px;overflow:hidden;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;width:150px;height:150px;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);}

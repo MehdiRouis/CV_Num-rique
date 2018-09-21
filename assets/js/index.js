@@ -24,12 +24,5 @@ $(document).ready(function() {
       $('#content-skills').slideUp();
       $('#content-contact').slideDown();
     });
-
-    function slideLeft(object) {
-      $(object).hide("slide", { direction: "left" }, 1000);
-    }
-    function slideRight(object) {
-      $(object).hide("slide", { direction: "right" }, 1000);
-    }
   });
 });

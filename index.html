@@ -70,6 +70,7 @@
   <!-- #ENDHOMEPAGE -->
   <!-- #SKILLSPAGE -->
   <div id="content-skills" class="flex-container" style="display:none">
+    <!-- FRONT-END -->
     <div class="flexbox col-5">
       <div class="content align-center">
         <h2>Front-end</h2>
@@ -77,29 +78,16 @@
       <div class="content align-center">
         <div class="content-body">
           <div class="flex-container">
-            <div class="col-4">
+            <div class="jump col-4">
               <div class="progressbar">
-                <img src="./assets/img/html-icon.png" />
+                <img class="circle-progressbar-icon" title="HTML5" alt="Logo HTML5" ondrag="return false" src="./assets/img/html-icon.png" />
                 <div id="html5-progressbar"></div>
               </div>
             </div>
             <div class="hidden-content"></div>
-            <div class="col-4">
+            <div id="pleft" class="jump col-4">
               <div class="progressbar">
-                <img src="./assets/img/css-icon.png" />
-                <div id="css3-progressbar"></div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="progressbar">
-                <img src="./assets/img/html-icon.png" />
-                <div id="html5-progressbar"></div>
-              </div>
-            </div>
-            <div class="hidden-content"></div>
-            <div class="col-4">
-              <div class="progressbar">
-                <img src="./assets/img/css-icon.png" />
+                <img class="circle-progressbar-icon" title="CSS3" alt="Logo CSS3" ondrag="return false" src="./assets/img/css-icon.png" />
                 <div id="css3-progressbar"></div>
               </div>
             </div>
@@ -107,27 +95,137 @@
         </div>
       </div>
     </div>
+    <!-- END FRONT-END -->
     <div class="hidden-content"></div>
+    <!-- BACK-END -->
     <div class="flexbox col-5">
       <div class="content align-center">
         <h2>Back-end</h2>
       </div>
       <div class="content align-center">
         <div class="content-body">
-          <p>Future content with progressbar and more...</p>
+          <div class="flex-container">
+            <div class="jump col-4">
+              <div class="progressbar">
+                <img class="circle-progressbar-icon" title="PHP" alt="Logo PHP" ondrag="return false" src="./assets/img/php-icon.png" />
+                <div id="php7-progressbar"></div>
+              </div>
+            </div>
+            <div class="hidden-content"></div>
+            <div id="pleft" class="jump col-4">
+              <div class="progressbar">
+                <img class="circle-progressbar-icon" title="Javascript" alt="Javascript" ondrag="return false" src="./assets/img/js-icon.png" />
+                <div id="js-progressbar"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <!-- END BACK-END -->
+    <!-- FRAMEWORKS -->
+    <div class="flexbox col-12">
+      <div class="content align-center">
+        <h2>Frameworks</h2>
+      </div>
+      <div class="content align-center">
+        <div class="content-body">
+          <div class="flex-container">
+            <div class="col-2">
+              <div class="progressbar">
+                <img class="circle-progressbar-icon" title="AngularJS" alt="Logo AngularJS" ondrag="return false" src="./assets/img/angular-icon.svg" />
+                <div id="angular-progressbar"></div>
+              </div>
+            </div>
+            <div class="hidden-content"></div>
+            <div class="col-2">
+              <div class="progressbar">
+                <img class="circle-progressbar-icon" title="Symfony" alt="Logo Symfony" ondrag="return false" src="./assets/img/symfony-icon.png" />
+                <div id="symfony-progressbar"></div>
+              </div>
+            </div>
+            <div class="hidden-content"></div>
+            <div class="col-2">
+              <div class="progressbar">
+                <img class="circle-progressbar-icon" title="Slim Framework" alt="Logo Slim Framework" ondrag="return false" src="./assets/img/slim-icon.png" />
+                <div id="slim-progressbar"></div>
+              </div>
+            </div>
+            <div class="line hidden-content"></div>
+            <!-- SECOND LINE -->
+            <div class="col-2">
+              <div class="progressbar">
+                <img class="circle-progressbar-icon" title="Bootstrap 4" alt="Logo Bootstrap 4" ondrag="return false" src="./assets/img/bootstrap-icon.png" />
+                <div id="bootstrap-progressbar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END FRAMEWORKS -->
   </div>
   <!-- #ENDSKILLSPAGE -->
   <!-- #CONTACTPAGE -->
   <div id="content-contact" class="flex-container" style="display:none">
-    <div class="content col-12 align-center">
-      <div class="content-body">
-        <h2>Me contacter</h2>
+    <div class="flexbox col-3">
+      <div class="content bg-dark">
+        <div class="content-body">
+            <ul>
+              <li class="navcol-item">
+                <a id="home" class="nav-link active" href="#"><i class="fas fa-home"></i> Accueil</a>
+              </li>
+              <li class="navcol-item">
+                <a id="skills" class="nav-link" href="#"><i class="fas fa-code"></i> Compétences</a>
+              </li>
+              <li class="navcol-item">
+                <a id="contact" class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+              </li>
+              <li class="float-right"><i class="fas fa-analytics"></i></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hidden-content"></div>
+    <div class="flexbox col-7">
+      <div id="content-fb">
+        <div class="content align-justify">
+          <div class="content-body">
+            <p>Contenu 1</p>
+          </div>
+        </div>
+      </div>
+      <div id="content-twitter" style="display:none">
+        <div class="content align-justify">
+          <div class="content-body">
+            <p>Contenu 2</p>
+          </div>
+        </div>
+      </div>
+      <div id="content-discord" style="display:none">
+        <div class="content align-justify">
+          <div class="content-body">
+            <p>Contenu 3</p>
+          </div>
+        </div>
+      </div>
+      <div id="content-mail" style="display:none">
+        <div class="content align-justify">
+          <div class="content-body">
+            <p>Contenu 4</p>
+          </div>
+        </div>
+      </div>
+      <div id="content-address" style="display:none">
+        <div class="content align-justify">
+          <div class="content-body">
+            <p>Contenu 5</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</div>
   <!-- #ENDCONTACTPAGE -->
 <script type="text/javascript" src="./assets/import/jquery/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="./assets/import/progressbar/progressbar.js"></script>

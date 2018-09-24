@@ -20,8 +20,13 @@ $(document).ready(function() {
       if(skilldown === 1) {
         progressBar('#html5-progressbar', 0.7, '#f16528');
         progressBar('#css3-progressbar', 0.5, '#1c88c7');
-        progressBar('#html5-progressbar', 0.7, '#f16528');
-        progressBar('#css3-progressbar', 0.5, '#1c88c7');
+        progressBar('#php7-progressbar', 0.8, '#777bb3');
+        progressBar('#js-progressbar', 0.4, '#f1bf28');
+        progressBar('#angular-progressbar', 0.01, '#b53031');
+        progressBar('#symfony-progressbar', 0.3, '#19171b');
+        progressBar('#slim-progressbar', 0.4, '#729e3f');
+        progressBar('#bootstrap-progressbar', 0.4, '#8559d1');
+
       }
     });
     $('#contact').click(function() {

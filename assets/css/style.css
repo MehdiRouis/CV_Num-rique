@@ -29,9 +29,18 @@ ul {list-style: none;}
 .userimage:hover {transform:scale(1.3);}
 .align-content {display:block;margin-left:auto;margin-right:auto;}
 
-.circle-progressbar-icon {transition:0.5s;margin-bottom: 30px;overflow:hidden;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;width:50px;height:auto;margin-top:15px;z-index:500;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12);}
-.circle-progressbar-icon:hover {transform:scale(1.3);border-radius:0px;overflow:visible;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;box-shadow: 0 0 0 0;}
+svg {width: 100%;display: block;}
 
+.progressbar {position: relative;width: 200px;height: 200px;}
+
+.progressbar > #bar, .progressbar > img {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+.progressbar > img {border-radius: 50%;/* Needs appropriate vendor prefixes */box-sizing: border-box;/* This needs to be equal to strokeWidth */padding: 4%;}
+
+
+
+.circle-progressbar-icon {align-content:center;transition:0.5s;margin-bottom: 30px;overflow:hidden;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;width:50px;height:auto;margin-top:15px;z-index:500;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12);}
+.circle-progressbar-icon:hover {transform:scale(1.3);border-radius:0px;overflow:visible;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;box-shadow: 0 0 0 0;}
 
 ul.timeline {list-style-type: none;position: relative;}ul.timeline:before {content: ' ';background: #d4d9df;display: inline-block;position: absolute;left: 32px;width: 2px;height: 100%;z-index: 400;}ul.timeline > li {margin: 20px 0;padding-left: 20px;}ul.timeline > li:before {content: ' ';background: white;display: inline-block;position: absolute;border-radius: 50%;border: 3px solid #222222;left: 20px;width: 20px;height: 20px;z-index: 400;}
 

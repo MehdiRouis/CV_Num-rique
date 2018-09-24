@@ -20,6 +20,8 @@ $(document).ready(function() {
       if(skilldown === 1) {
         progressBar('#html5-progressbar', 0.7, '#f16528');
         progressBar('#css3-progressbar', 0.5, '#1c88c7');
+        progressBar('#html5-progressbar', 0.7, '#f16528');
+        progressBar('#css3-progressbar', 0.5, '#1c88c7');
       }
     });
     $('#contact').click(function() {
